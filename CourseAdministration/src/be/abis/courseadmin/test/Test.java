@@ -27,8 +27,8 @@ public class Test {
 			nI2.printSalaryHistory(45);
 			nI2.printInfo();
 			
-			nC1.addInstructor(nI1.getFirstName());
-			nC1.addInstructor(nI2.getFirstName());
+			nC1.addInstructor(nI1);
+			nC1.addInstructor(nI2);
 			nC1.printInfo();
 			
 			

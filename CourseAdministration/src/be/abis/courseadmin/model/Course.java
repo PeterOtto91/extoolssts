@@ -8,7 +8,7 @@ public class Course {
 	private int courseNumberDays;
 	private double coursePriceDay;
 	private boolean courseKnowledge = false;
-	private ArrayList<String> courseInstructors = new ArrayList<String>();
+	private ArrayList<Instructor> courseInstructors = new ArrayList<Instructor>();
 
 
 	public Course (String courseTitle, int courseNumberDays, double coursePriceDay, boolean courseKnowledge, ArrayList courseInstructors) throws NumberFormatException {
@@ -61,7 +61,7 @@ public class Course {
 	
 	
 	
-	public void addInstructor(String newInstructor){
+	public void addInstructor(Instructor newInstructor){
 		this.courseInstructors.add(newInstructor);
 		
 	}
