@@ -1,0 +1,3 @@
+Salary of Eric at 32 is 2214.5
+Salary of Eric at 37 is 2280.935
+Salary of Eric at 42 is 2349.36305
